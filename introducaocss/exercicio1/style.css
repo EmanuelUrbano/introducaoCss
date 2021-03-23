@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+header{
+    background-color: blue;
+    height: 30vh;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+nav{
+    grid-row: 2;
+    background-color: blueviolet;
+    height: 10vh;
+}
+
+.container{
+    background-color: cornflowerblue;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 3vw;
+    row-gap: 3vh;
+}
+
+footer{
+    background-color: blue;
+    height: 10vh;
+}
+
+article{
+    background-color: chartreuse;
+    height: 60vh;
+    width: 54vw;
+}
+
+aside{
+    background-color: springgreen;
+    height: 60vh;
+    width: 40vw;
+}
